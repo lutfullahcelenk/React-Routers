@@ -10,7 +10,7 @@ const Contact = (props) => {
         className="ui raised very padded text comtainer segment"
         style={{ marginTop: "80px" }}
       >
-        <Link to="/card/alex">Alex</Link>
+        <Link to="/alex">Alex</Link>
         <p>
           Lorem ipsum dolar sit amet, concestetur adipiscing elit, sed do eiu
           amet.
@@ -20,7 +20,7 @@ const Contact = (props) => {
         className="ui raised very padded text comtainer segment"
         style={{ marginTop: "80px" }}
       >
-        <Link to="/card/lutfullah">Lutfullah</Link>
+        <Link to="/lutfullah">Lutfullah</Link>
         <p>
           Lorem ipsum dolar sit amet, concestetur adipiscing elit, sed do eiu
           amet.
