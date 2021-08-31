@@ -1,0 +1,17 @@
+.modal{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.modal-content{
+    background-color: white;
+    margin: 300px auto;
+    height: 40%;
+    width: 40%;
+    text-align: center;
+}
