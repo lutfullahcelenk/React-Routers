@@ -4,10 +4,12 @@ import "./Modal.css";
 const About = () => {
   return (
     <div>
-      <div className="modal">
+      <div className="wrapper">
+        <div className="modal">
           <div className="modal-content">
-              <h3>I am a modal</h3>
+            <h3>I am a modal</h3>
           </div>
+        </div>
       </div>
 
       <div
