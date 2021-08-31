@@ -1,6 +1,8 @@
 import React from "react";
 
-const Contact = () => {
+const Contact = (props) => {
+  // console.log(props)
+  
   return (
     <div
       className="ui raised very padded text comtainer segment"
