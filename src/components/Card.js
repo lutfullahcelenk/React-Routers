@@ -3,10 +3,10 @@ import React, {useState, useEffect} from "react";
 
 const Card = ({match}) => {
 
-    const [user,setUser] = useState("")
+    const [userName,setUserName] = useState("")
 
     useEffect(() => {
-        setUser(match.params.user)
+        setUserName(match.params.profile)
     })
 
   return (
@@ -14,7 +14,7 @@ const Card = ({match}) => {
       className="ui raised very padded text comtainer segment"
       style={{ marginTop: "80px" }}
     >
-      <h3 className="ui hader">{user}</h3>
+      <h3 className="ui hader">{userName}</h3>
     </div>
   );
 };
