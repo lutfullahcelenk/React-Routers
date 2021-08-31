@@ -1,11 +1,13 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Modal from './Modal'
 
 const Contact = (props) => {
   // console.log(props)
 
   return (
     <div>
+      <Modal />
       <div
         className="ui raised very padded text comtainer segment"
         style={{ marginTop: "80px" }}
