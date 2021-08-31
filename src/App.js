@@ -16,6 +16,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/:profile" component={Card} />
+          
         </Switch>
 
       </div>
