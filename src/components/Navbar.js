@@ -3,9 +3,10 @@ import {Link, NavLink, withRouter} from 'react-router-dom';
 
 const Navbar = (props) => {
     console.log(props)
-    setTimeout(() => {
-        props.history.push("./about")
-      },6000)
+    // setTimeout(() => {
+    //     props.history.push("./about")
+    //   },6000)
+    
     return (
         <nav className="ui raised very padded segment">
             <a className="ui teal inverted segment">Gloria</a>
