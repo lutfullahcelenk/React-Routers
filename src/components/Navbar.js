@@ -9,7 +9,7 @@ const Navbar = (props) => {
     
     return (
         <nav className="ui raised very padded segment">
-            <a className="ui teal inverted segment">Gloria</a>
+            <a className="ui teal inverted segment">Lütfullah ÇELENK</a>
             <div className="ui right floated header">
                 <button className="ui button"> <Link to="/"> Home</Link></button>
                 <button className="ui button"> <NavLink to="/about"> About</NavLink></button>
