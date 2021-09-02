@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
-// import {useParams} from 'react-router'
+// import {useParams} from 'react-router';
+import { connect } from "react-redux";
+
 
 const Card = ({match}) => {
 
@@ -19,4 +21,4 @@ const Card = ({match}) => {
   );
 };
 
-export default Card;
+export default connect(Card);
