@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import Modal from './Modal'
+import Modal from './Modal';
+import {connect} from 'react-redux';
 
 const Contact = (props) => {
   // console.log(props)
@@ -32,4 +33,4 @@ const Contact = (props) => {
   );
 };
 
-export default Contact;
+export default connect(Contact) ;
