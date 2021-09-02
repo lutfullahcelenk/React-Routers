@@ -29,7 +29,7 @@ const Contact = ({ cards }) => {
 };
 
 const mapStateToProps = (state) => {
-  const { cards } = state;
+  const cards = state.cards;
   return {
     cards: cards,
   };
